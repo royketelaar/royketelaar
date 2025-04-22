@@ -45,7 +45,7 @@ useSeoMeta({
 }
 
 .content {
-  @apply relative rounded-2xl text-stone-950 bg-stone-50 bg-opacity-80 top-36 p-8 pt-48 mx-8 mb-64 md:px-16 md:pb-16 md:mx-16 lg:pt-16 xl:max-w-4xl xl:mx-auto;
+  @apply relative top-32 rounded-2xl text-stone-950 bg-stone-50 bg-opacity-80 p-8 pt-48 mx-8 mb-64 md:px-16 md:pb-16 md:mx-16 lg:pt-16 xl:max-w-4xl xl:mx-auto;
 }
 
 .text-content {

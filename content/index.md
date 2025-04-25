@@ -35,5 +35,3 @@ Outside of work, I like experiencing new things and traveling to cool places.
 - UI/UX Design
 - Design Thinking
 - SCRUM
-
-![Cage](https://placecage.lucidinternets.com/200/300){:height='300' :width='200'}

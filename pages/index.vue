@@ -1,9 +1,15 @@
 <template>
-  <main class="h-screen">
-    <nuxt-img src="/background.jpg" alt="Background" class="background-image" />
+  <main v-if="home" class="h-screen">
+    <nuxt-img
+      src="/background.jpg"
+      alt="Background"
+      class="background-image"
+      quality="80"
+      format="webp"
+    />
     <div class="content">
       <nuxt-img src="/avatar.jpg" alt="Avatar" class="avatar" />
-      <content-renderer v-if="home" :value="home" class="text-content" />
+      <content-renderer :value="home" class="text-content" />
       <div class="actions">
         <a href="mailto:info@royketelaar.nl">
           <button class="button">Get in touch!</button>

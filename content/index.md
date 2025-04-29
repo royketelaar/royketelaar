@@ -3,7 +3,6 @@ title: "Roy Ketelaar - Front-end Developer "
 description: Roy Ketelaar - Frontend Developer & Web Designer. Passionate about
   crafting user-friendly applications, optimizing performance, and creating
   exceptional user experiences through innovative design and development.
-background: background.jpg
 seo:
   title: "Roy Ketelaar - Front-end Developer "
   description: Roy Ketelaar - Frontend Developer & Web Designer. Passionate about

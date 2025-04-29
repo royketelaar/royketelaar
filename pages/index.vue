@@ -7,7 +7,7 @@
       quality="80"
       format="webp"
     />
-    <div class="content">
+    <div v-if="home" class="content">
       <nuxt-img src="/avatar.jpg" alt="Avatar" class="avatar" />
       <content-renderer :value="home" class="text-content" />
       <div class="actions">
@@ -92,5 +92,15 @@ ul {
 
 .icon {
   @apply mx-2 w-6 h-6;
+}
+
+/* Add fade transition styles */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

@@ -6,6 +6,8 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+
+  ssr: false, 
   app: {
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -24,9 +26,5 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxtjs/tailwindcss'
-  ],
-
-  image: {
-    provider: 'netlify'
-  }
+  ]
 })
